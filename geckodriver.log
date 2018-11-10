@@ -333,3 +333,96 @@ JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-103636475-1, 
 1541888633042	Marionette	INFO	Listening on port 44831
 1541888633064	Marionette	WARN	TLS certificate errors will be ignored for this session
 *** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1541889703774	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.7NsrUAEXTgo8"
+1541889707829	Marionette	INFO	Listening on port 43283
+1541889707897	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+1541889782532	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.TD9ySTgLd3lP"
+1541889786644	Marionette	INFO	Listening on port 39467
+1541889786747	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 5245, Chrome_ChildThread] WARNING: pipe error (17): Conexão fechada pela outra ponta: file /build/firefox-ZAAwqT/firefox-60.0+linuxmint3+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1541889857820	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.iDsMmHLXJLHL"
+1541889861977	Marionette	INFO	Listening on port 46197
+1541889862034	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 5500, Gecko_IOThread] WARNING: pipe error (95): Conexão fechada pela outra ponta: file /build/firefox-ZAAwqT/firefox-60.0+linuxmint3+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1541889895877	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.GZUMFMWJSD8g"
+1541889899250	Marionette	INFO	Listening on port 41257
+1541889899293	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541889960145	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.BDLiJ2ZRc3qT"
+1541889963908	Marionette	INFO	Listening on port 35229
+1541889963960	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541890086773	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.rY1uABK5eBeg"
+1541890090953	Marionette	INFO	Listening on port 34537
+1541890090997	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 6763, Chrome_ChildThread] WARNING: pipe error (3): Conexão fechada pela outra ponta: file /build/firefox-ZAAwqT/firefox-60.0+linuxmint3+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1541890887521	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.IWjrsvnpv8zC"
+1541890891480	Marionette	INFO	Listening on port 35085
+1541890891548	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 7727, Gecko_IOThread] WARNING: pipe error (124): Conexão fechada pela outra ponta: file /build/firefox-ZAAwqT/firefox-60.0+linuxmint3+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1541890948416	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.CUGia2dS8LHB"
+1541890956796	Marionette	INFO	Listening on port 37079
+1541890956849	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 8169, Gecko_IOThread] WARNING: pipe error (62): Conexão fechada pela outra ponta: file /build/firefox-ZAAwqT/firefox-60.0+linuxmint3+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1541891073200	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.zVf5ttYyMsCv"
+1541891078403	Marionette	INFO	Listening on port 42963
+1541891078422	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 8634, Chrome_ChildThread] WARNING: pipe error (3): Conexão fechada pela outra ponta: file /build/firefox-ZAAwqT/firefox-60.0+linuxmint3+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 8604, Chrome_ChildThread] WARNING: pipe error (3): Conexão fechada pela outra ponta: file /build/firefox-ZAAwqT/firefox-60.0+linuxmint3+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353

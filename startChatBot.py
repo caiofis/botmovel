@@ -1,6 +1,7 @@
-from lib_chat import send, wait_new_message
+from lib_chat import send, wait_new_message, chat_bot_sequence
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
+
 
 driver = webdriver.Firefox()
 driver.get('https://web.whatsapp.com/')
@@ -17,8 +18,10 @@ while (not login and i < 3):
         i+=1
         print(i)
 
-if (not login):
+'''if (not login):
     print("Desculpe, não foi possível fazer o login")
-else:
-    #send(driver, 'Hackathon Unesp', 'Batata')
-    wait_new_message(driver)
+else:'''
+#send(driver, 'Hackathon Unesp', 'Batata')
+while (True):
+    chat_bot_sequence(driver)
+
