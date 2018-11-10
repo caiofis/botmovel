@@ -1,0 +1,13 @@
+1541878416310	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.WCmS7o53QA3e"
+console.error: "Could not write session state file " (new Error("_initWorker called too early! Please read the session file from disk first.", "resource:///modules/sessionstore/SessionFile.jsm", 337)) "_initWorker/<@resource:///modules/sessionstore/SessionFile.jsm:337:15\n_initWorker@resource:///modules/sessionstore/SessionFile.jsm:330:12\n_postToWorker@resource:///modules/sessionstore/SessionFile.jsm:354:11\nwrite@resource:///modules/sessionstore/SessionFile.jsm:394:19\nwrite@resource:///modules/sessionstore/SessionFile.jsm:66:12\n_writeState@resource:///modules/sessionstore/SessionSaver.jsm:357:12\n_saveState@resource:///modules/sessionstore/SessionSaver.jsm:295:12\n_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:341:5\nsaveStateAsyncWhenIdle@resource:///modules/sessionstore/SessionSaver.jsm:192:9\n"
+1541878428826	Marionette	INFO	Listening on port 33665
+1541878429194	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541878473224	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.nXyu8KET3jQc"
+1541878477305	Marionette	INFO	Listening on port 34869
+1541878477347	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541878506971	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.6IotJV7SYoGf"
+1541878511180	Marionette	INFO	Listening on port 46801
+1541878511190	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541878546182	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.NJViwzXltZJr"
+1541878551587	Marionette	INFO	Listening on port 39181
+1541878551609	Marionette	WARN	TLS certificate errors will be ignored for this session
