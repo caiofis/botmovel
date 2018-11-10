@@ -1,6 +1,5 @@
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
-from scheduling.verifica_mensagens import verifica_mensagem
 
 driver = webdriver.Firefox()
 driver.get('https://web.whatsapp.com/')
@@ -19,4 +18,4 @@ while (not login and i < 3):
 if (not login):
     print("Desculpe, não foi possível fazer o login")
 else:
-    verifica_mensagem.verificacao()
+    print('Batatas')
