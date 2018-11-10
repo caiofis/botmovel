@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45331e10-8496-452e-a065-f8e1d3152230" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/login/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/mensagem_boasvindas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/response/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/response/interpreter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/start.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib_chat.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/response/interpreter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/send.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/startChatBot.py" beforeDir="false" afterPath="$PROJECT_DIR$/startChatBot.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,25 +19,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="start.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/start.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="interpreter.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/response/interpreter.py">
+      <file leaf-file-name="startChatBot.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/startChatBot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="37" lean-forward="true" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+            <state relative-caret-position="258">
+              <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mensagem_boasvindas.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/mensagem_boasvindas.py">
+      <file leaf-file-name="lib_chat.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib_chat.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="273">
+              <caret line="30" column="99" selection-start-line="30" selection-start-column="99" selection-end-line="30" selection-end-column="99" />
+              <folding>
+                <element signature="e#40#51#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -58,15 +58,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/send.py" />
         <option value="$PROJECT_DIR$/schedule/startChatBot.py" />
         <option value="$PROJECT_DIR$/schedule/verifica_mensagens.py" />
         <option value="$PROJECT_DIR$/scheduling/verifica_mensagens.py" />
-        <option value="$PROJECT_DIR$/startChatBot.py" />
         <option value="$PROJECT_DIR$/start.py" />
         <option value="$PROJECT_DIR$/model/mensagem.py" />
         <option value="$PROJECT_DIR$/model/mensagem_boasvindas.py" />
         <option value="$PROJECT_DIR$/response/interpreter.py" />
+        <option value="$PROJECT_DIR$/send.py" />
+        <option value="$PROJECT_DIR$/startChatBot.py" />
+        <option value="$PROJECT_DIR$/lib_chat.py" />
       </list>
     </option>
   </component>
@@ -93,7 +94,7 @@
             <path>
               <item name="botmovel" type="b2602c69:ProjectViewProjectNode" />
               <item name="botmovel" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="chat" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="botmovel" type="b2602c69:ProjectViewProjectNode" />
@@ -193,12 +194,12 @@
     <frame x="0" y="-1" width="1366" height="742" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24944155" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24944155" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50111693" side_tool="true" weight="0.3284553" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4996277" weight="0.3284553" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3284553" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4988831" visible="true" weight="0.3284553" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -214,6 +215,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -260,30 +266,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/startChatBot.py">
+    <entry file="file://$PROJECT_DIR$/model/mensagem_boasvindas.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/response/interpreter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/start.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/mensagem_boasvindas.py">
+    <entry file="file://$PROJECT_DIR$/reply.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="153">
+          <caret line="27" selection-start-line="27" selection-end-line="34" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/response/interpreter.py">
+    <entry file="file://$PROJECT_DIR$/startChatBot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="37" lean-forward="true" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+        <state relative-caret-position="258">
+          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_chat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="30" column="99" selection-start-line="30" selection-start-column="99" selection-end-line="30" selection-end-column="99" />
+          <folding>
+            <element signature="e#40#51#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
