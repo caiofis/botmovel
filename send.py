@@ -3,7 +3,7 @@
 
 from selenium import webdriver
 
-driver = webdriver.Chrome()
+driver = webdriver.Firefox()
 driver.get('https://web.whatsapp.com/')
 
 name = input('Enter the name of user or group : ')
