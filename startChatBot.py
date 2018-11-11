@@ -1,4 +1,4 @@
-from lib_chat import send, wait_new_message, chat_bot_sequence
+from execution import chat_bot_sequence
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
 

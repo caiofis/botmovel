@@ -662,3 +662,36 @@ IPDL protocol error: Handler returned error code!
 [Child 17263, Chrome_ChildThread] WARNING: pipe error (3): Conexão fechada pela outra ponta: file /build/firefox-ZAAwqT/firefox-60.0+linuxmint3+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
 [Child 17230, Chrome_ChildThread] WARNING: pipe error (17): Conexão fechada pela outra ponta: file /build/firefox-ZAAwqT/firefox-60.0+linuxmint3+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
 [Child 17230, Chrome_ChildThread] WARNING: pipe error (3): Conexão fechada pela outra ponta: file /build/firefox-ZAAwqT/firefox-60.0+linuxmint3+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1541918888867	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.G1w61XwdS9ya"
+1541918892848	Marionette	INFO	Listening on port 38111
+1541918892885	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541919142549	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.tu0lOabZGCRl"
+1541919145920	Marionette	INFO	Listening on port 36703
+1541919145962	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541919320543	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.oCqNJHtIC1oW"
+1541919326409	Marionette	INFO	Listening on port 35353
+1541919326469	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541919490794	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.F5CUbqbndFc6"
+1541919494980	Marionette	INFO	Listening on port 40075
+1541919495008	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541919690093	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.J07om16c2Wet"
+1541919693987	Marionette	INFO	Listening on port 45621
+1541919694011	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541919973486	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.tf1JLXSebpoW"
+1541919978588	Marionette	INFO	Listening on port 44609
+1541919978610	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541920364906	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.SrjgBkVXmUto"
+1541920368949	Marionette	INFO	Listening on port 40125
+1541920369020	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 26713, Chrome_ChildThread] WARNING: pipe error (3): Conexão fechada pela outra ponta: file /build/firefox-ZAAwqT/firefox-60.0+linuxmint3+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1541920899412	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.GBHJIqu2Pmoa"
+1541920904468	Marionette	INFO	Listening on port 45191
+1541920904545	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 27146, Chrome_ChildThread] WARNING: pipe error (3): Conexão fechada pela outra ponta: file /build/firefox-ZAAwqT/firefox-60.0+linuxmint3+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1541922065276	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.k0t3HAMU0cnt"
+1541922070507	Marionette	INFO	Listening on port 40195
+1541922070596	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541922359953	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.9QIxpcmF3Tou"
+1541922366158	Marionette	INFO	Listening on port 36711
+1541922366181	Marionette	WARN	TLS certificate errors will be ignored for this session
