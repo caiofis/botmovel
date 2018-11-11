@@ -4,7 +4,6 @@
     <list default="true" id="45331e10-8496-452e-a065-f8e1d3152230" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/geckodriver.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib_chat.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib_chat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/startChatBot.py" beforeDir="false" afterPath="$PROJECT_DIR$/startChatBot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/utils/google_api_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/google_api_utils.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +18,8 @@
       <file leaf-file-name="lib_chat.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib_chat.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
+            <state relative-caret-position="256">
+              <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
               <folding>
                 <element signature="e#40#51#0" expanded="true" />
               </folding>
@@ -31,8 +30,8 @@
       <file leaf-file-name="google_api_utils.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/utils/google_api_utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="114" column="40" selection-start-line="114" selection-start-column="40" selection-end-line="114" selection-end-column="40" />
+            <state relative-caret-position="124">
+              <caret line="24" column="40" lean-forward="true" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
               <folding>
                 <element signature="e#41#50#0" expanded="true" />
                 <element signature="e#390#567#0" />
@@ -45,8 +44,8 @@
       <file leaf-file-name="startChatBot.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/startChatBot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+            <state relative-caret-position="270">
+              <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
               <folding>
                 <element signature="e#0#62#0" expanded="true" />
               </folding>
@@ -142,7 +141,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.startChatBot">
+  <component name="RunManager" selected="Python.google_api_utils">
     <configuration name="google_api_utils" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="botmovel" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -204,8 +203,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.startChatBot" />
         <item itemvalue="Python.google_api_utils" />
+        <item itemvalue="Python.startChatBot" />
         <item itemvalue="Python.send" />
       </list>
     </recent_temporary>
@@ -340,8 +339,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/startChatBot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        <state relative-caret-position="270">
+          <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
           <folding>
             <element signature="e#0#62#0" expanded="true" />
           </folding>
@@ -350,8 +349,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib_chat.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
+        <state relative-caret-position="256">
+          <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
           <folding>
             <element signature="e#40#51#0" expanded="true" />
           </folding>
@@ -360,8 +359,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/utils/google_api_utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="114" column="40" selection-start-line="114" selection-start-column="40" selection-end-line="114" selection-end-column="40" />
+        <state relative-caret-position="124">
+          <caret line="24" column="40" lean-forward="true" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
           <folding>
             <element signature="e#41#50#0" expanded="true" />
             <element signature="e#390#567#0" />

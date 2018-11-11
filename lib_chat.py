@@ -85,6 +85,8 @@ def chat_bot_sequence(driver):
     else:
         send(driver, usuario, "Sinto muito, essa rota não foi identificada")
 
+
+
     time.sleep(0.3)
 
     # chama a validacao

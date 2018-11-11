@@ -91,7 +91,7 @@ class GoogleApiUtils:
         currRoute = self.route_options[self.optionsCounter]
 
         instructions = []
-        GoogleApiUtils.recGetSteps(currRoute, instructions)
+        GoogleApiUtils.getSteps(currRoute, instructions)
 
         return instructions
 
@@ -100,15 +100,21 @@ class GoogleApiUtils:
         return self.optionsCounter != self.currOptionsSize
 
     @staticmethod
-    def recGetSteps(currRoute, instructions):
-        if "steps" in currRoute:
-            for step in currRoute["steps"]:
-                instruction = GoogleApiUtils\
-                    .convertHTMLtoZapZap(step["html_instructions"])
-                instructions.append(instruction)
-
+    def getSteps(currRoute, instructions):
+        for step in currRoute["steps"]:
+            try:
                 if "steps" in step:
-                    GoogleApiUtils.recGetSteps(step, instructions)
+                    for st in step["steps"]:
+                        instruction = GoogleApiUtils\
+                            .convertHTMLtoZapZap(st["html_instructions"])
+                        instructions.append(instruction)
+
+                else:
+                    instruction = GoogleApiUtils \
+                        .convertHTMLtoZapZap(step["html_instructions"])
+                    instructions.append(instruction)
+            except KeyError:
+                pass
 
 
 g = GoogleApiUtils()

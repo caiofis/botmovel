@@ -630,3 +630,8 @@ IPDL protocol error: Handler returned error code!
 1541907603893	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.vTZC4w5HshB5"
 1541907607779	Marionette	INFO	Listening on port 42093
 1541907607812	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541908781320	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.oZX8kY0KEuVR"
+1541908785306	Marionette	INFO	Listening on port 40921
+1541908785338	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://web.whatsapp.com/progress.72b06f469cf50013f88bf6a299ecb993.js, line 2: NS_ERROR_NOT_INITIALIZED: 
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
