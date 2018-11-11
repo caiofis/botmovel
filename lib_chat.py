@@ -24,7 +24,7 @@ def wait_new_message(driver):
             usuario = driver.find_element_by_class_name('_2FBdJ').text[:-6]
             user = driver.find_element_by_class_name('OUeyt')
             user.click()
-            mensagem = driver.find_elements_by_xpath("//div[contains(@class, 'message-in')]")[-1].text[:-6]
+            mensagem = driver.find_elements_by_xpath("//div[contains(@class, 'message-in')]")[-1].text
             time.sleep(5)
             user = driver.find_element_by_xpath('//span[@title = "{}"]'.format("Hackathon Unesp"))
             user.click()
@@ -32,14 +32,29 @@ def wait_new_message(driver):
         except NoSuchElementException:
             pass
 
+def espera_resposta(driver, usuario, mensagem_anterior):
+    user = driver.find_element_by_xpath('//span[@title = "{}"]'.format(usuario))
+    user.click()
+    mensagem = driver.find_elements_by_xpath("//div[contains(@class, 'message-in')]")[-1].text
+
+    while(mensagem == mensagem_anterior):
+        mensagem = driver.find_elements_by_xpath("//div[contains(@class, 'message-in')]")[-1].text
+        user = driver.find_element_by_xpath('//span[@title = "{}"]'.format(usuario))
+        user.click()
+
+    time.sleep(5)
+    user = driver.find_element_by_xpath('//span[@title = "{}"]'.format("Hackathon Unesp"))
+    user.click()
+    return mensagem
+
 def chat_bot_sequence(driver):
-    _, usuario = wait_new_message(driver)
+    mensagem, usuario = wait_new_message(driver)
     print(usuario)
     send(driver, usuario, mensagem_boasvindas)
-    ponto_partida, _ = wait_new_message(driver)
+    ponto_partida = espera_resposta(driver, usuario, mensagem)
     print(ponto_partida)
     send(driver, usuario, mensagem_destino)
-    ponto_destino, _ = wait_new_message(driver)
+    ponto_destino = espera_resposta(driver, usuario, ponto_partida)
     print(ponto_destino)
     # chama a validacao
 
