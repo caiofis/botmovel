@@ -28,9 +28,9 @@ def send(driver, user, msg):
 def wait_new_message(driver):
     while True:
         try:
-            user = driver.find_element_by_class_name('OUeyt')
-            user.click()
-            usuario = driver.find_element_by_class_name('_2FBdJ').text[:-6]
+            mensagem_nao_lida = driver.find_element_by_class_name('OUeyt')
+            mensagem_nao_lida.click()
+            usuario = driver.find_element_by_class_name('_2zCDG').text
             mensagem = driver.find_elements_by_xpath("//div[contains(@class, 'message-in')]")[-1].text
             user = driver.find_element_by_xpath('//span[@title = "{}"]'.format("Hackathon Unesp"))
             user.click()

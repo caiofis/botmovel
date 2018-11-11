@@ -650,3 +650,15 @@ IPDL protocol error: Handler returned error code!
 1541912351936	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.9auFLtrdzFQC"
 1541912356063	Marionette	INFO	Listening on port 35483
 1541912356156	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541914785308	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.CqY1qmOhDToc"
+1541914789088	Marionette	INFO	Listening on port 38007
+1541914789130	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 15132, Gecko_IOThread] WARNING: pipe error (123): Conexão fechada pela outra ponta: file /build/firefox-ZAAwqT/firefox-60.0+linuxmint3+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1541914898745	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.duHSbOfWkGK9"
+1541914902683	Marionette	INFO	Listening on port 33201
+1541914902759	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 17167, Gecko_IOThread] WARNING: pipe error (116): Conexão fechada pela outra ponta: file /build/firefox-ZAAwqT/firefox-60.0+linuxmint3+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 17263, Chrome_ChildThread] WARNING: pipe error (3): Conexão fechada pela outra ponta: file /build/firefox-ZAAwqT/firefox-60.0+linuxmint3+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 17230, Chrome_ChildThread] WARNING: pipe error (17): Conexão fechada pela outra ponta: file /build/firefox-ZAAwqT/firefox-60.0+linuxmint3+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 17230, Chrome_ChildThread] WARNING: pipe error (3): Conexão fechada pela outra ponta: file /build/firefox-ZAAwqT/firefox-60.0+linuxmint3+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
