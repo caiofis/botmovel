@@ -2,6 +2,8 @@
 
 import re
 import requests
+import time
+
 from requests.exceptions import RequestException
 
 
@@ -57,13 +59,15 @@ class GoogleApiUtils:
             return None
 
     def queryRoute(self, origin, destination, mode="transit"):
+        # t = time.time() + 8*6060
         query_param = (
             'origin=%s'
             '&destination=%s'
             '&key=%s'
             '&mode=%s'
             '&language=pt-BR')\
-            %(origin, destination, GoogleApiUtils.api_key, mode)
+            # '&departure_time=%d')\
+            %(origin, destination, GoogleApiUtils.api_key, mode, round(t))
 
         try:
             res = requests.get(GoogleApiUtils.route_base_query + query_param)
@@ -97,28 +101,48 @@ class GoogleApiUtils:
 
     def setNextOption(self):
         self.optionsCounter += 1
-        return self.optionsCounter != self.currOptionsSize
+        return self.optionsCounter < self.currOptionsSize
 
     @staticmethod
     def getSteps(currRoute, instructions):
         for step in currRoute["steps"]:
             try:
-                if "steps" in step:
-                    for st in step["steps"]:
-                        instruction = GoogleApiUtils\
-                            .convertHTMLtoZapZap(st["html_instructions"])
+                if step["travel_mode"] == "WALKING":
+                    if "steps" in step:
+                        for st in step["steps"]:
+                            instruction = GoogleApiUtils\
+                                .convertHTMLtoZapZap(st["html_instructions"])
+                            instructions.append(instruction)
+                    else:
+                        instruction = GoogleApiUtils \
+                            .convertHTMLtoZapZap(step["html_instructions"])
                         instructions.append(instruction)
 
-                else:
-                    instruction = GoogleApiUtils \
-                        .convertHTMLtoZapZap(step["html_instructions"])
-                    instructions.append(instruction)
+                elif step["travel_mode"] == "TRANSIT":
+                    if "transit_details" in step:
+                        transit = step["transit_details"]
+                        instruction = "Pegar %s e descer em %d paradas, em %s" \
+                            %(step["html_instructions"], transit["num_stops"],
+                            transit["arrival_stop"]["name"])
+
+                        instructions.append(
+                            GoogleApiUtils.convertHTMLtoZapZap(instruction))
+                    else:
+                        pass #?
+
             except KeyError:
                 pass
 
 
+<<<<<<< HEAD
 if __name__ == "__main__":
     g = GoogleApiUtils()
     if g.queryRoute("Confiança Max", "Tauste"):
         print(g.getInstructions())
         # print(g.getShortURL())
+=======
+# g = GoogleApiUtils()
+# if g.queryRoute("Confiança Max", "nego veio"):
+#     print(g.getInstructions())
+    # print(g.getShortURL())
+>>>>>>> Ziquezira lelesk
