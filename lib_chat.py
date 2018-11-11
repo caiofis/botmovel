@@ -2,10 +2,12 @@
 import time
 from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchElementException
+from utils.google_api_utils import GoogleApiUtils
 
 mensagem_boasvindas ="Olá, eu sou o bot da Transurb e estou aqui para auxiliar em sua viagem. " \
                "Por favor, me informe o seu local de origem?"
 mensagem_destino = "Para onde gostaria de ir?"
+
 
 def send(driver, user, msg):
 
@@ -62,19 +64,27 @@ def espera_resposta(driver, usuario, mensagem_anterior):
     return mensagem
 
 def chat_bot_sequence(driver):
+    g = GoogleApiUtils()
+
     mensagem, usuario = wait_new_message(driver)
     print(usuario)
     send(driver, usuario, mensagem_boasvindas)
     time.sleep(0.3)
 
-    ponto_partida = espera_resposta(driver, usuario, mensagem)
-    print(ponto_partida)
+    ponto_partida, _ = espera_resposta(driver, usuario, mensagem)
+    print(ponto_partida[:-6])
     send(driver, usuario, mensagem_destino)
     time.sleep(0.3)
-    ponto_destino = espera_resposta(driver, usuario, ponto_partida)
-    print(ponto_destino)
+    ponto_destino, _ = espera_resposta(driver, usuario, ponto_partida)
+    print(ponto_destino[:-6])
 
-    send(driver, usuario, "Ok")
+    if (g.queryRoute(ponto_partida[:-6], ponto_destino[:-6])):
+        steps = g.getInstructions()
+        for step in steps:
+            send(driver, usuario, step)
+    else:
+        send(driver, usuario, "Sinto muito, essa rota não foi identificada")
+
     time.sleep(0.3)
 
     # chama a validacao

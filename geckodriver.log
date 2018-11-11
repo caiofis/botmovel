@@ -597,3 +597,36 @@ observe()@resource://gre/modules/addons/XPIProvider.jsm:2287
 1541902804672	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.kocusN3LQbvR"
 1541902809049	Marionette	INFO	Listening on port 42871
 1541902809088	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541904389729	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.tcU8rr7kr07i"
+1541904393723	Marionette	INFO	Listening on port 46211
+1541904393749	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541906160414	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Ll7o4tJjkl2V"
+1541906164468	Marionette	INFO	Listening on port 44891
+1541906164540	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541906279563	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.QqeJtGT2wcjK"
+1541906284083	Marionette	INFO	Listening on port 40927
+1541906284179	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1541906379184	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.rUL7kmSxuSnL"
+1541906386008	Marionette	INFO	Listening on port 45823
+1541906386109	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541906902544	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.8nxpa0lPzVA3"
+1541906906955	Marionette	INFO	Listening on port 36673
+1541906906961	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 28787, Chrome_ChildThread] WARNING: pipe error (17): Conexão fechada pela outra ponta: file /build/firefox-ZAAwqT/firefox-60.0+linuxmint3+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 28787, Chrome_ChildThread] WARNING: pipe error (3): Conexão fechada pela outra ponta: file /build/firefox-ZAAwqT/firefox-60.0+linuxmint3+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1541906990573	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.n79OZ3OvYwxV"
+1541906995638	Marionette	INFO	Listening on port 37257
+1541906995693	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541907163166	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.A3g6rTZYj1Ro"
+1541907167228	Marionette	INFO	Listening on port 45877
+1541907167287	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541907318768	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.F55KcFZT4dGa"
+1541907325127	Marionette	INFO	Listening on port 37571
+1541907325188	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541907603893	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.vTZC4w5HshB5"
+1541907607779	Marionette	INFO	Listening on port 42093
+1541907607812	Marionette	WARN	TLS certificate errors will be ignored for this session

@@ -2,6 +2,7 @@
 
 import re
 import requests
+from requests.exceptions import RequestException
 
 
 class GoogleApiUtils:
@@ -43,7 +44,7 @@ class GoogleApiUtils:
 
             try:
                 res = requests.post(GoogleApiUtils.url_sh_base_query + short_query_param)
-            except requests.exceptions.RequestException, e:
+            except RequestException as e:
                 print("Failed querying url shortener: %s", e.message)
 
             resJson = res.json()
@@ -64,10 +65,10 @@ class GoogleApiUtils:
             '&language=pt-BR')\
             %(origin, destination, GoogleApiUtils.api_key, mode)
 
-        print(GoogleApiUtils.route_base_query + query_param)
         try:
             res = requests.get(GoogleApiUtils.route_base_query + query_param)
-        except requests.exceptions.RequestException, e:
+            print(res)
+        except RequestException as e:
             print("Failed querying google maps API: %s", e.message)
             self.res_json = None
             return False
@@ -82,7 +83,6 @@ class GoogleApiUtils:
             for route in self.res_json["routes"]:
                 self.route_options.append(route["legs"][0])
                 self.currOptionsSize += 1
-            print(self.route_options)
             return True
         else:
             return False
@@ -103,7 +103,6 @@ class GoogleApiUtils:
     def recGetSteps(currRoute, instructions):
         if "steps" in currRoute:
             for step in currRoute["steps"]:
-                print(step)
                 instruction = GoogleApiUtils\
                     .convertHTMLtoZapZap(step["html_instructions"])
                 instructions.append(instruction)
@@ -113,6 +112,6 @@ class GoogleApiUtils:
 
 
 g = GoogleApiUtils()
-if g.queryRoute("Nego Veio", "Shopping Bauru"):
+if g.queryRoute("Confiança Max", "Tauste"):
     print(g.getInstructions())
     # print(g.getShortURL())

@@ -16,7 +16,6 @@ while (not login and i < 3):
         login = True
     except NoSuchElementException:
         i+=1
-        print(i)
 
 '''if (not login):
     print("Desculpe, não foi possível fazer o login")
