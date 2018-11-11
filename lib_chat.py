@@ -30,6 +30,7 @@ def send(driver, user, msg):
     msg_box.send_keys(Keys.RETURN)
     WebDriverWait(driver, 10).until(
         EC.invisibility_of_element_located((By.XPATH, "//div[@class='_3j7s9' and contains(text, '{}')]/div[@class='OUeyt']".format(user))))
+    time.sleep(2)
 
 
 def wait_new_message(driver):

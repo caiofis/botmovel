@@ -9,7 +9,7 @@ driver.get('https://web.whatsapp.com/')
 login = False
 i=0
 
-input('Por favor, faça o login do whatsapp web pelo QRCode e dê enter!')
+#input('Por favor, faça o login do whatsapp web pelo QRCode e dê enter!')
 while (not login and i < 3):
     try:
         driver.find_element_by_class_name("iHhHL")
