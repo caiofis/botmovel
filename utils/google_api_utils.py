@@ -59,14 +59,15 @@ class GoogleApiUtils:
             return None
 
     def queryRoute(self, origin, destination, mode="transit"):
-        # t = time.time() + 8*6060
+        t = time.time() + 8*60*60
         query_param = (
             'origin=%s'
             '&destination=%s'
             '&key=%s'
             '&mode=%s'
-            '&language=pt-BR')\
-            % (origin, destination, GoogleApiUtils.api_key, mode)
+            '&language=pt-BR'
+            '&departure_time=%d')\
+            %(origin, destination, GoogleApiUtils.api_key, mode, round(t))
 
         try:
             res = requests.get(GoogleApiUtils.route_base_query + query_param)

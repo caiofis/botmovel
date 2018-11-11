@@ -650,3 +650,10 @@ IPDL protocol error: Handler returned error code!
 1541912351936	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.9auFLtrdzFQC"
 1541912356063	Marionette	INFO	Listening on port 35483
 1541912356156	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541913497107	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.b2OvRvrtO1QM"
+1541913500702	Marionette	INFO	Listening on port 40573
+1541913500721	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 11714, Chrome_ChildThread] WARNING: pipe error (3): Conexão fechada pela outra ponta: file /build/firefox-ZAAwqT/firefox-60.0+linuxmint3+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1541913806136	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.dnGkG2PC46OH"
+1541913809760	Marionette	INFO	Listening on port 34791
+1541913809854	Marionette	WARN	TLS certificate errors will be ignored for this session
