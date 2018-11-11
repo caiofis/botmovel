@@ -28,7 +28,7 @@ def send(driver, user, msg):
     msg_box.click()
     msg_box.send_keys(msg)
     msg_box.send_keys(Keys.RETURN)
-    WebDriverWait(driver, 5).until(
+    WebDriverWait(driver, 10).until(
         EC.invisibility_of_element_located((By.XPATH, "//div[@class='_3j7s9' and contains(text, '{}')]/div[@class='OUeyt']".format(user))))
 
 
@@ -46,7 +46,7 @@ def wait_new_message(driver):
 
 
 def avaliacao_mensagem(mensagem):
-    positivas = ['sim', 'muito', 'obrigada']
+    positivas = ['sim', 'muito', 'obrigada', 'show']
 
     resp = False
     for positiva in positivas:

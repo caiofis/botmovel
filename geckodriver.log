@@ -695,3 +695,27 @@ IPDL protocol error: Handler returned error code!
 1541922359953	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.9QIxpcmF3Tou"
 1541922366158	Marionette	INFO	Listening on port 36711
 1541922366181	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541923751165	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.B3oWTAwFSbne"
+1541923755053	Marionette	INFO	Listening on port 40549
+1541923755083	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541924069041	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.o91eG25N35y0"
+1541924072800	Marionette	INFO	Listening on port 41157
+1541924072855	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541924320428	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.TnDLxoiF4sDF"
+1541924324363	Marionette	INFO	Listening on port 38833
+1541924324443	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541924509367	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.g6gyfiLGVXSr"
+1541924513769	Marionette	INFO	Listening on port 44829
+1541924513789	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541924686035	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.BoqYZ0DrqUjf"
+1541924695737	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.edmGZ2dXKikA"
+1541924699395	Marionette	INFO	Listening on port 36367
+1541924699450	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 3025, Gecko_IOThread] WARNING: pipe error (63): Conexão fechada pela outra ponta: file /build/firefox-ZAAwqT/firefox-60.0+linuxmint3+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1541924765716	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Ux6PVI1NfihU"
+1541924769321	Marionette	INFO	Listening on port 40909
+1541924769340	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541924993297	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.jFI4Nnd5pwcb"
+1541924996647	Marionette	INFO	Listening on port 37987
+1541924996710	Marionette	WARN	TLS certificate errors will be ignored for this session

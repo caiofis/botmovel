@@ -24,15 +24,16 @@ def chat_bot_sequence(driver):
             if steps is not None:
                 for step in steps:
                     send(driver, user_name, step)
+                send(driver, user_name, "A minha resposta lhe ajudou de alguma forma?")
+                user.estado = feedback
             else:
                 send(driver, user_name, "Sinto muito, mas não consegui definir uma rota")
                 send(driver, user_name, "Que tal falar com a nossa central de atendimento? O número é (14) 4009-1740")
-
-            send(driver, user_name, "A minha resposta lhe ajudou de alguma forma?")
-            user.estado = feedback
+                del usuarios[user_name]
 
         elif user.estado == feedback:
             send(driver, user_name, avaliacao_mensagem(mensagem))
+            time.sleep(2)
             del usuarios[user_name]
 
     #Nao encontrou - começa a conversa
