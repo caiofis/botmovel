@@ -15,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="lib_chat.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="lib_chat.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib_chat.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
+            <state relative-caret-position="155">
+              <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
               <folding>
                 <element signature="e#40#51#0" expanded="true" />
               </folding>
@@ -27,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="google_api_utils.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="google_api_utils.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils/google_api_utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="24" column="40" lean-forward="true" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+            <state relative-caret-position="545">
+              <caret line="124" lean-forward="true" selection-start-line="124" selection-end-line="124" />
               <folding>
                 <element signature="e#41#50#0" expanded="true" />
                 <element signature="e#390#567#0" />
@@ -44,8 +44,8 @@
       <file leaf-file-name="startChatBot.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/startChatBot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+            <state relative-caret-position="390">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="e#0#62#0" expanded="true" />
               </folding>
@@ -83,12 +83,12 @@
         <option value="$PROJECT_DIR$/send.py" />
         <option value="$PROJECT_DIR$/execute.py" />
         <option value="$PROJECT_DIR$/startChatBot.py" />
-        <option value="$PROJECT_DIR$/lib_chat.py" />
         <option value="$PROJECT_DIR$/utils/google_api_utils.py" />
+        <option value="$PROJECT_DIR$/lib_chat.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="4">
     <option name="width" value="682" />
     <option name="height" value="741" />
   </component>
@@ -141,7 +141,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.google_api_utils">
+  <component name="RunManager" selected="Python.startChatBot">
     <configuration name="google_api_utils" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="botmovel" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -155,6 +155,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/google_api_utils.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="lib_chat" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="botmovel" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lib_chat.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -200,11 +218,13 @@
       <item itemvalue="Python.send" />
       <item itemvalue="Python.startChatBot" />
       <item itemvalue="Python.google_api_utils" />
+      <item itemvalue="Python.lib_chat" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.google_api_utils" />
         <item itemvalue="Python.startChatBot" />
+        <item itemvalue="Python.lib_chat" />
+        <item itemvalue="Python.google_api_utils" />
         <item itemvalue="Python.send" />
       </list>
     </recent_temporary>
@@ -223,7 +243,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-1" width="1366" height="742" extended-state="6" />
+    <frame x="0" y="0" width="682" height="741" extended-state="4" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49878934" weight="0.4279211" />
@@ -231,11 +251,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50111693" side_tool="true" weight="0.3284553" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4996277" weight="0.3284553" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4988831" visible="true" weight="0.32682925" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4988831" visible="true" weight="0.3257329" />
       <window_info id="Structure" order="1" sideWeight="0.50121063" side_tool="true" weight="0.20997766" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.36970684" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3691057" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -252,13 +272,27 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/utils/google_api_utils.py</url>
-          <line>2</line>
-          <option name="timeStamp" value="9" />
+          <url>file://$PROJECT_DIR$/lib_chat.py</url>
+          <line>70</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="10" />
+      <option name="time" value="11" />
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="str(normalize(mensagem)).lower()" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>str(normalize(mensagem)).lower()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/lib_chat.py">
@@ -337,10 +371,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/utils/google_api_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="124" lean-forward="true" selection-start-line="124" selection-end-line="124" />
+          <folding>
+            <element signature="e#41#50#0" expanded="true" />
+            <element signature="e#390#567#0" />
+            <element signature="e#849#1761#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/startChatBot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+        <state relative-caret-position="390">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="e#0#62#0" expanded="true" />
           </folding>
@@ -349,22 +395,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib_chat.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
+        <state relative-caret-position="155">
+          <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
           <folding>
             <element signature="e#40#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/google_api_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="24" column="40" lean-forward="true" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
-          <folding>
-            <element signature="e#41#50#0" expanded="true" />
-            <element signature="e#390#567#0" />
-            <element signature="e#849#1761#0" />
           </folding>
         </state>
       </provider>

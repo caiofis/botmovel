@@ -635,3 +635,18 @@ IPDL protocol error: Handler returned error code!
 1541908785338	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: https://web.whatsapp.com/progress.72b06f469cf50013f88bf6a299ecb993.js, line 2: NS_ERROR_NOT_INITIALIZED: 
 *** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1541910541905	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.q0hm5xZsuc3h"
+1541910545992	Marionette	INFO	Listening on port 41111
+1541910546021	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 7172, Chrome_ChildThread] WARNING: pipe error (3): Conexão fechada pela outra ponta: file /build/firefox-ZAAwqT/firefox-60.0+linuxmint3+sylvia/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1541911154713	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.t5V8jXjb225j"
+1541911159625	Marionette	INFO	Listening on port 41979
+1541911159630	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541912351936	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.9auFLtrdzFQC"
+1541912356063	Marionette	INFO	Listening on port 35483
+1541912356156	Marionette	WARN	TLS certificate errors will be ignored for this session

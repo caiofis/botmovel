@@ -117,7 +117,8 @@ class GoogleApiUtils:
                 pass
 
 
-g = GoogleApiUtils()
-if g.queryRoute("Confiança Max", "Tauste"):
-    print(g.getInstructions())
-    # print(g.getShortURL())
+if __name__ == "__main__":
+    g = GoogleApiUtils()
+    if g.queryRoute("Confiança Max", "Tauste"):
+        print(g.getInstructions())
+        # print(g.getShortURL())
