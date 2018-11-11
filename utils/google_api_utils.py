@@ -66,8 +66,7 @@ class GoogleApiUtils:
             '&key=%s'
             '&mode=%s'
             '&language=pt-BR')\
-            # '&departure_time=%d')\
-            %(origin, destination, GoogleApiUtils.api_key, mode, round(t))
+            % (origin, destination, GoogleApiUtils.api_key, mode)
 
         try:
             res = requests.get(GoogleApiUtils.route_base_query + query_param)
@@ -134,15 +133,7 @@ class GoogleApiUtils:
                 pass
 
 
-<<<<<<< HEAD
 if __name__ == "__main__":
     g = GoogleApiUtils()
     if g.queryRoute("Confiança Max", "Tauste"):
         print(g.getInstructions())
-        # print(g.getShortURL())
-=======
-# g = GoogleApiUtils()
-# if g.queryRoute("Confiança Max", "nego veio"):
-#     print(g.getInstructions())
-    # print(g.getShortURL())
->>>>>>> Ziquezira lelesk
