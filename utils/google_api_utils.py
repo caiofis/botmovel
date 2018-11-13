@@ -8,7 +8,7 @@ from requests.exceptions import RequestException
 
 
 class GoogleApiUtils:
-    api_key = 'AIzaSyA7eksstdIlK9-gJbYjaNXuOrAC37RfxNs'
+    api_key = '' # place api key here
     route_base_query = 'https://maps.googleapis.com/maps/api/directions/json?'
     url_sh_base_query = 'https://www.googleapis.com/urlshortener/v1/url?'
     maps_base_query = 'https://www.google.com/maps/dir/'
